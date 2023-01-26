@@ -8,4 +8,4 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Install Modules
-        run: ./terminal/noVNC/utils/launch.sh --vnc localhost:5901
+        run: ./noVNC/utils/launch.sh --vnc localhost:5901
